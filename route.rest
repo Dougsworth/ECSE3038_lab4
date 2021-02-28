@@ -1,0 +1,13 @@
+###
+GET http://localhost:5000/data
+
+###
+
+###
+PATCH http://localhost:5000/dish/1
+content-type: application/json
+
+
+{
+  "name": "Turned "
+}
